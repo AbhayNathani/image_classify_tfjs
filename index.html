@@ -4,7 +4,7 @@
 
     <title>Image Classification</title>
 
-    // no cache
+    <!-- Turn Off Chache -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
@@ -22,10 +22,10 @@
     <div>
         <h1>Image Classification</h1>
 
-        <div>Teachable Machine Image Model</div>
-        <button type="button" onclick="init()">Start</button>
+        <div class="description">Basic Tensorflow Model For Person And Person with book Clasify</div>
+        <div class="center"><button type="button" onclick="init()">Start</button></div>
         <div id="webcam-container"></div>
-        <div id="label-container"></div>
+        <div class="output" id="label-container"></div>
     </div>
 </body>
 
